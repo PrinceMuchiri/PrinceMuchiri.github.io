@@ -1,92 +1,56 @@
-/* CSS Styles for the Landing Page */
-.intro {
-  text-align: center;
-  padding: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Intro Section -->
+  <section class="intro">
+    <img src="cover-image.jpg" alt="Cover Image">
+    <h1>Example Project</h1>
+    <p>A Revolutionary Solution for XYZ</p>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <a href="https://example.com" class="button">Try It Now</a>
+  </section>
 
-.intro img {
-  max-width: 100%;
-}
+  <!-- Feature Section -->
+  <section id="features" class="feature-section">
+    <div class="feature">
+      <img src="feature-1.jpg" alt="Feature 1">
+      <h3>Feature 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="feature">
+      <img src="feature-2.jpg" alt="Feature 2">
+      <h3>Feature 2</h3>
+      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="feature">
+      <img src="feature-3.jpg" alt="Feature 3">
+      <h3>Feature 3</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+    </div>
+  </section>
 
-.intro h1 {
-  font-size: 36px;
-  margin-top: 20px;
-}
-
-.intro p {
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-nav ul {
-  list-style-type: none;
-  margin-top: 30px;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-}
-
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-
-.feature-section {
-  text-align: center;
-  padding: 20px;
-}
-
-.feature {
-  margin-bottom: 20px;
-}
-
-.feature img {
-  max-width: 100%;
-}
-
-.feature h3 {
-  font-size: 24px;
-  margin-top: 10px;
-}
-
-.feature p {
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-.about-section {
-  text-align: center;
-  padding: 20px;
-}
-
-.about-section p {
-  margin-bottom: 10px;
-}
-
-.about-section ul {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 10px;
-}
-
-.about-section ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.about-section ul li a {
-  text-decoration: none;
-  color: #007bff;
-}
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <p>Example Project was inspired by my passion for solving XYZ challenges.</p>
+    <p>This project is a Portfolio Project for Holberton School.</p>
+    <p>Connect with our team members:</p>
+    <ul>
+      <li><a href="https://linkedin.com/user1">LinkedIn</a></li>
+      <li><a href="https://github.com/user1">GitHub</a></li>
+      <li><a href="https://twitter.com/user1">Twitter</a></li>
+    </ul>
+    <a href="https://github.com/project-repo">GitHub Repository</a>
+  </section>
+</body>
+</html>
